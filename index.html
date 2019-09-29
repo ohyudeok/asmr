@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>닭의 사명</title>
+	<style type="text/css">
+		@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+		body{background:black;}
+		h2{color:white; font-family: 'TmonMonsori'; display:block; margin:auto; text-align:center;}
+		h1{color:white; margin-top:100px; margin-bottom:100px; font-family: 'TmonMonsori'; font-size:100px;}
+		#header1{position:fixed; z-index:100; left:31.5%}
+		#header2{position:absolute; z-index:100; left:43.5%; top:300px;}
+		#header3{position:absolute; z-index:100; left:43.5%; top:1000px;}
+		#header4{position:absolute; z-index:100; left:42.5%; top:1900px;}
+		#wrap{width:1200px; display:block; margin:auto; height:2400px; overflow:hidden;}
+		#d1{width:300px; border-radius:300px; background:url(house1.png); background-repeat:no-repeat; margin-left:30%; position:absolute; z-index:100; top:400px}
+		#d2{width:300px; border-radius:300px; background:url(back.jpg); background-repeat:no-repeat; margin-left:30%; position:absolute; z-index:100; top:1100px}
+		#d4{width:300px; border-radius:300px; background:url(friedchic.png); background-repeat:no-repeat; margin-left:30%; position:absolute; z-index:100; top:2000px}
+		#egg{width:300px; opacity:1;}
+		#one{opacity:0; position:absolute; z-index:0; top:100px; animation: ro1 5s linear infinite;}
+				@keyframes ro1{
+			to{transform:rotate(360deg);}
+			}
+		#party{opacity:0; position:absolute; z-index:0; top:0px; width:800px;}
+		#minioh2{position:absolute; z-index:100; top:450px; width:100px; left:150px; opacity:0;}
+		#minioh3{position:absolute; z-index:100; top:450px; width:100px;left:300px; opacity:0;}
+		#minioh4{position:absolute; z-index:100; top:450px; width:100px;left:450px; opacity:0;}
+		#minioh5{position:absolute; z-index:100; top:450px; width:100px;left:600px; opacity:0;}
+		#minioh6{position:absolute; z-index:100; top:450px; width:100px; left:830px; opacity:0;}
+		#minioh7{position:absolute; z-index:100; top:450px; width:100px;left:980px; opacity:0;}
+		#minioh8{position:absolute; z-index:100; top:450px; width:100px;left:1130px; opacity:0;}
+		#minioh9{position:absolute; z-index:100; top:450px; width:100px;left:1280px; opacity:0;}
+		#pung{position:absolute; z-index:0; top:200px; left:60%}
+
+		#big{position:absolute; top:950px; z-index:10; left:70%; opacity:0;}
+		#small{position:absolute; top:1000px; z-index:10; left:8%; opacity:0;}
+		@keyframes sc1{
+			to{transform:scale(0.5,0.5);}
+		}
+		#proc{position:absolute; z-index:101; top:1280px; opacity:0;}
+		@keyframes po2{
+			to{left:800px;}
+		}
+		#d3{width:100px; height:200px; top:1120px; background:yellow; position:absolute; z-index:0; left:47.5%;}
+		@keyframes sc2{
+			to{transform:scaleX(20);}
+		}
+		#candy{top:800px; position:absolute; z-index:12; width:200px; opacity:0;}
+		#candy2{top:800px; position:absolute; z-index:12; width:200px; opacity:0; left:1200px}
+		#grow{top:1100px; position:absolute; z-index:0; opacity:0}
+		#grow2{top:1100px; position:absolute; z-index:0; opacity:0; left:950px}
+
+		#hoo{width:300px;}
+		#chim{top:1700px; position:absolute; z-index:0; opacity:0;}
+		#sorry{top:1800px; position:absolute; z-index:0; opacity:0;}
+		#cry{top:1600px; position:absolute; z-index:0; left:1100px; width:200px; opacity:0;}
+		#eatt{top:1800px; position:absolute; z-index:0; left:1010px; opacity:0;}
+		#hand{top:1850px; position:absolute; z-index:103; left:33.3%; opacity:0;}
+		
+	</style>
+</head>
+<body>
+	<div id="wrap">
+	<h1 id="header1">뿅아리의 일생</h1>
+	<h2 id="header2">★축! 뿅아리 탄생★</h2>
+	<div id="d1">
+	<img src="egg.png" id="egg"></div>
+	<audio src="birthday.mp3" id="aaa"></audio>
+	<img src="1.gif" id="one">
+	<img src="party.gif" id="party">
+	<img src="oh.gif" id="minioh2">
+	<img src="oh.gif" id="minioh3">
+	<img src="oh.gif" id="minioh4">
+	<img src="oh.gif" id="minioh5">
+	<img src="oh.gif" id="minioh6">
+	<img src="oh.gif" id="minioh7">
+	<img src="oh.gif" id="minioh8">
+	<img src="oh.gif" id="minioh9">
+	<img src="happyday.gif" id="pung">
+
+	<h2 id="header3">★뿅아리의 성장★</h2>
+	<div id="d2">
+	<img src="feed.png" id="feed"></div>
+	<audio src="feed.mp3" id="bb"></audio>
+	<img src="feedbig.gif" id="big">
+	<img src="chic.gif" id="small">
+	<img src="process.png" id="proc">
+	<div id="d3"></div>
+	<img src="candy.gif" id="candy">
+	<img src="candy.gif" id="candy2">
+	<img src="grow.gif" id="grow">
+	<img src="grow.gif" id="grow2">
+
+	<h2 id="header4">★뿅아리야 미안해ㅠ★</h2>
+	<div id="d4">
+	<img src="fried.png" id="hoo"></div>
+	<audio src="life.mp3" id="cc"></audio>
+	<audio src="eating.wav" id="ccc"></audio>
+	<audio src="crying.mp3" id="cccc"></audio>
+	<img src="chim.gif" id="chim"></div>
+	<img src="sorry.gif" id="sorry"></div>
+	<img src="cry.gif" id="cry"></div>
+	<img src="eat.gif" id="eatt"></div>
+	<img src="hand.gif" id="hand"></div>
+
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		var astate = "off";
+			egg.onclick = function(){
+				if(astate == "off"){
+				egg.src = "oh.gif";
+				
+				aaa.play();
+				one.style.opacity = 1;
+				party.style.opacity = 1;
+				minioh2.style.opacity = 1;
+				minioh3.style.opacity = 1;
+				minioh4.style.opacity = 1;
+				minioh5.style.opacity = 1;
+				minioh6.style.opacity = 1;
+				minioh7.style.opacity = 1;
+				minioh8.style.opacity = 1;
+				minioh9.style.opacity = 1;
+				astate = "on"
+				}else{
+				
+				aaa.pause();
+				one.style.opacity = 0;
+				party.style.opacity = 0;
+				minioh2.style.opacity = 0;
+				minioh3.style.opacity = 0;
+				minioh4.style.opacity = 0;
+				minioh5.style.opacity = 0;
+				minioh6.style.opacity = 0;
+				minioh7.style.opacity = 0;
+				minioh8.style.opacity = 0;
+				minioh9.style.opacity = 0;
+				egg.src = "egg.png";
+				astate = "off";}
+		}
+
+		var bstate = "off";
+			feed.onclick = function(){
+				if(bstate == "off"){
+				bb.play();
+				bb.volume = 0.3;
+				d3.style.animation = "sc2 5s alternate infinite";
+				grow.style.opacity = 1;
+				grow2.style.opacity = 1;
+				candy.style.opacity = 1;
+				candy2.style.opacity = 1;
+				big.style.opacity = 1;
+				small.style.opacity = 1;
+				feed.style.opacity = 1;
+				proc.style.opacity = 1;
+				feed.style.animation = "sc1 1s alternate infinite";
+				proc.style.animation = "po2 3s linear infinite";
+				bstate = "on"
+				}else{
+				bb.pause();
+				candy.style.opacity = 0;
+				candy2.style.opacity = 0;
+				big.style.opacity = 0;
+				grow.style.opacity = 0;
+				grow2.style.opacity = 0;
+				d3.style.animation = "none";
+				feed.style.animation = "none";
+				small.style.opacity = 0;
+				proc.style.opacity = 0;
+				bstate = "off";}
+		}
+
+		var cstate = "off";
+			hand.onclick = function(){
+				if(cstate == "off"){
+				hoo.src = "chickk.gif";
+				cc.play();
+				ccc.play();
+				cccc.play();
+				cccc.volume = 0.3;
+				chim.style.opacity = 1;
+				sorry.style.opacity = 1;
+				cry.style.opacity = 1;
+				eatt.style.opacity = 1;
+				hand.style.opacity = 1;
+				d4.style.background = "black";
+				cstate = "on"
+				}else{
+				hoo.src = "fried.png";
+				d4.style.background = "url(friedchic.png)";
+				chim.style.opacity = 0;
+				sorry.style.opacity = 0;
+				cry.style.opacity = 0;
+				eatt.style.opacity = 0;
+				hand.style.opacity = 0;
+				cc.pause();
+				ccc.pause();
+				cccc.pause();
+				cstate = "off";}
+		}
+	</script>
+
+</body>
+<footer style="display:block; text-align:center; color:white; margin-bottom: 50px;"> @20190929 desiged by yudeokoh</footer>
+</html>
