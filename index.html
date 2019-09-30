@@ -40,10 +40,6 @@
 		@keyframes po2{
 			to{left:800px;}
 		}
-		#d3{width:100px; height:200px; top:1120px; background:yellow; position:absolute; z-index:0; left:47.5%;}
-		@keyframes sc2{
-			to{transform:scaleX(20);}
-		}
 		#candy{top:800px; position:absolute; z-index:12; width:200px; opacity:0;}
 		#candy2{top:800px; position:absolute; z-index:12; width:200px; opacity:0; left:1200px}
 		#grow{top:1100px; position:absolute; z-index:0; opacity:0}
@@ -84,7 +80,6 @@
 	<img src="feedbig.gif" id="big">
 	<img src="chic.gif" id="small">
 	<img src="process.png" id="proc">
-	<div id="d3"></div>
 	<img src="candy.gif" id="candy">
 	<img src="candy.gif" id="candy2">
 	<img src="grow.gif" id="grow">
@@ -147,7 +142,6 @@
 				if(bstate == "off"){
 				bb.play();
 				bb.volume = 0.3;
-				d3.style.animation = "sc2 5s alternate infinite";
 				grow.style.opacity = 1;
 				grow2.style.opacity = 1;
 				candy.style.opacity = 1;
@@ -166,7 +160,6 @@
 				big.style.opacity = 0;
 				grow.style.opacity = 0;
 				grow2.style.opacity = 0;
-				d3.style.animation = "none";
 				feed.style.animation = "none";
 				small.style.opacity = 0;
 				proc.style.opacity = 0;
